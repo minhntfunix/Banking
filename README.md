@@ -40,32 +40,32 @@ Tự động tới Hàm 2.
 
 Hàm 2: Thực hiện ngôn ngữ dựa trên tùy chọn đã chọn.
 
-Hàm 1: Thay đổi ngôn ngữ
+  Hàm 1: Thay đổi ngôn ngữ
 
-Sử dụng resourceBundle để lấy giá trị của ngôn ngữ theo key trong 2 file là En.properties và Vi.properties tương ứng là tiếng Anh và tiếng Việt
+    Sử dụng resourceBundle để lấy giá trị của ngôn ngữ theo key trong 2 file là En.properties và Vi.properties tương ứng là tiếng Anh và tiếng Việt
 
-Hàm 2: Kiểm tra số tài khoản
+  Hàm 2: Kiểm tra số tài khoản
 
-Sử dụng Biểu thức chính quy để kiểm tra tính hợp lệ của số tài khoản đã được nhập theo yêu cầu của nhiệm vụ.
-Nếu số tài khoản không hợp lệ, nó sẽ trả về thông báo lỗi tương ứng với ngôn ngữ bạn đã chọn.
+    Sử dụng Biểu thức chính quy để kiểm tra tính hợp lệ của số tài khoản đã được nhập theo yêu cầu của nhiệm vụ.
+    Nếu số tài khoản không hợp lệ, nó sẽ trả về thông báo lỗi tương ứng với ngôn ngữ bạn đã chọn.
 
-Hàm 3: Kiểm tra mật khẩu
+  Hàm 3: Kiểm tra mật khẩu
 
-Sử dụng Biểu thức chính quy để kiểm tra tính hợp lệ của mật khẩu đã nhập.
-Nếu mật khẩu không hợp lệ thì trả về thông báo lỗi tương ứng với ngôn ngữ bạn vừa chọn.
+    Sử dụng Biểu thức chính quy để kiểm tra tính hợp lệ của mật khẩu đã nhập.
+    Nếu mật khẩu không hợp lệ thì trả về thông báo lỗi tương ứng với ngôn ngữ bạn vừa chọn.
 
-Hàm 4: Tạo mã captcha ngẫu nhiên
+  Hàm 4: Tạo mã captcha ngẫu nhiên
 
-Sử dụng chức năng Ngẫu nhiên để tạo một chuỗi ngẫu nhiên, sau đó chuyển đổi thành các ký tự (nhập ký tự).
+    Sử dụng chức năng Ngẫu nhiên để tạo một chuỗi ngẫu nhiên, sau đó chuyển đổi thành các ký tự (nhập ký tự).
 
-Hàm 5: Kiểm tra mã captcha
+  Hàm 5: Kiểm tra mã captcha
 
-Sử dụng hàm chứa () để kiểm tra các ký tự captcha đầu vào có tồn tại trong chuỗi captcha được sinh ra lúc đầu không.
-Nếu các ký tự captcha không hợp lệ, thì trả về thông báo lỗi tương ứng với ngôn ngữ bạn đã chọn.
+    Sử dụng hàm chứa () để kiểm tra các ký tự captcha đầu vào có tồn tại trong chuỗi captcha được sinh ra lúc đầu không.
+    Nếu các ký tự captcha không hợp lệ, thì trả về thông báo lỗi tương ứng với ngôn ngữ bạn đã chọn.
 
-Hàm 6: Đăng nhập
+  Hàm 6: Đăng nhập
 
-Cho phép người dùng nhập số tài khoản, mật khẩu và hình ảnh xác thực từ bàn phím.
-Nếu số tài khoản hợp lệ, thì cho phép người dùng nhập mật khẩu và nếu số tài khoản đã nhập không hợp lệ, sau đó in ra màn hình lỗi và cho phép người dùng nhập lại.
-Nếu mật khẩu hợp lệ thì cho phép người dùng nhập captcha. Nếu không, sau đó in ra màn hình lỗi và cho phép người dùng nhập lại.
-Nếu hình ảnh xác thực không hợp lệ thì hãy in ra màn hình lỗi.
+    Cho phép người dùng nhập số tài khoản, mật khẩu và hình ảnh xác thực từ bàn phím.
+    Nếu số tài khoản hợp lệ, thì cho phép người dùng nhập mật khẩu và nếu số tài khoản đã nhập không hợp lệ, sau đó in ra màn hình lỗi và cho phép người dùng nhập        lại.
+    Nếu mật khẩu hợp lệ thì cho phép người dùng nhập captcha. Nếu không, sau đó in ra màn hình lỗi và cho phép người dùng nhập lại.
+    Nếu hình ảnh xác thực không hợp lệ thì hãy in ra màn hình lỗi.
